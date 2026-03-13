@@ -1,0 +1,36 @@
+{
+	"name": "goldilocks-theme",
+	"displayName": "Goldilocks Theme",
+	"description": "Not too light, not too dark. Just right. A medium-contrast theme for developers who live in the middle.",
+	"version": "1.0.0",
+	"publisher": "Jon Ellwood",
+	"engines": {
+		"vscode": "^1.70.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"medium",
+		"goldilocks",
+		"mid-tone",
+		"not dark",
+		"not light"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Goldilocks – Just Right",
+				"uiTheme": "vs-dark",
+				"path": "./themes/goldilocks-color-theme.json"
+			}
+		]
+	},
+	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jonellwod/goldilocks-theme"
+	},
+	"license": "MIT"
+}
