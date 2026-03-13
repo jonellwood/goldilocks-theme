@@ -66,20 +66,6 @@ code --install-extension goldilocks-theme-1.0.0.vsix
 
 ---
 
-## Publishing to the VS Code Marketplace
-
-1. Create a free account at https://marketplace.visualstudio.com
-2. Generate a Personal Access Token (PAT) in Azure DevOps
-3. Update `publisher` in `package.json` to your publisher name
-4. Run:
-   ```bash
-   npm install -g @vscode/vsce
-   vsce login your-publisher-name
-   vsce publish
-   ```
-
----
-
 ## Tweaking the Theme
 
 All colors are in `themes/goldilocks-color-theme.json`.
